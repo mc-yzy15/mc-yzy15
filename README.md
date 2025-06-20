@@ -25,15 +25,11 @@
 ## 📊 GitHub 数据
 
 ![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=mc-yzy15&theme=radical)
-<<<<<<< HEAD
 
 ```text
 // 贪吃蛇游戏贡献图
 ![Snake animation](https://github.com/mc-yzy15/mc-yzy15/blob/output/github-contribution-grid-snake.svg)
 ```
-=======
-![Snake animation](https://github.com/mc-yzy15/mc-yzy15/blob/output/github-contribution-grid-snake.svg)
->>>>>>> 9c25db7 (docs: 更新README中的联系方式和贡献图格式)
 
 ## 🤝 欢迎交流
 
