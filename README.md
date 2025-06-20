@@ -24,9 +24,8 @@
 
 ## 📊 GitHub 数据
 
-![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=mc-yzy15&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical)
 
-// 贪吃蛇游戏贡献图
 ![Snake animation](https://github.com/mc-yzy15/mc-yzy15/blob/output/github-contribution-grid-snake.svg)
 
 ## 🤝 欢迎交流
