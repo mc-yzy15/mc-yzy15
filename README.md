@@ -1,9 +1,5 @@
 # 👋 你好，我是Yzy15
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true)](https://github.com/mc-yzy15)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css)](https://github.com/mc-yzy15)
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=mc-yzy15&theme=radical&area=true)](https://github.com/mc-yzy15)
-
 ## 🚀 关于我
 
 - 🔭 目前正在开发: [GitHub仓库](https://github.com/mc-yzy15)
@@ -24,9 +20,9 @@
 
 ## 📊 GitHub 数据
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical)
-
-![Snake animation](https://github.com/mc-yzy15/mc-yzy15/blob/output/github-contribution-grid-snake.svg)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true)](https://github.com/mc-yzy15)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css)](https://github.com/mc-yzy15)
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=mc-yzy15&theme=radical&area=true)](https://github.com/mc-yzy15)
 
 ## 🤝 欢迎交流
 
