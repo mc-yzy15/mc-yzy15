@@ -2,11 +2,11 @@
 
 ## 🚀 关于我
 
-- 🔭 目前正在开发: [GitHub仓库](https://github.com/mc-yzy15)
-- 🌱 正在学习: Python高级编程与AI技术
-- 💬 可以问我关于: Python、Git和Markdown相关问题
-- 📫 如何联系我: [yingmoliuguang@yeah.net](mailto:yingmoliuguang@yeah.net)
-- ⚡ 有趣的事实: 我可以用Python写自动化脚本提高工作效率
+🔭 **目前正在开发**: [GitHub仓库](https://github.com/mc-yzy15)
+🌱 **正在学习**: Python高级编程与AI技术
+💬 **可以问我关于**: Python、Git和Markdown相关问题
+📫 **如何联系我**: [yingmoliuguang@yeah.net](mailto:yingmoliuguang@yeah.net)
+⚡ **有趣的事实**: 我可以用Python写自动化脚本提高工作效率
 
 ## 🛠️ 技术栈
 
