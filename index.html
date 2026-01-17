@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- SEO 元标签 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- 页面标题 -->
+    <title>Yzy15 - Python 开发者 & 前端工程师 | GitHub 个人主页</title>
+    
+    <!-- 核心 SEO 元标签 -->
+    <meta name="description" content="Yzy15 - Python 开发者、前端工程师，专注于自动化脚本、Web 开发和前端技术。访问我的 GitHub 个人主页，了解我的技术栈、项目作品和开发数据。">
+    <meta name="keywords" content="Yzy15, Python 开发者, 前端工程师, GitHub, 自动化脚本, Web 开发, 前端技术, 技术博客, 开源项目">
+    
+    <!-- 搜索引擎索引控制 -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- 社交媒体元标签 -->
+    <meta property="og:title" content="Yzy15 - Python 开发者 & 前端工程师 | GitHub 个人主页">
+    <meta property="og:description" content="Yzy15 - Python 开发者、前端工程师，专注于自动化脚本、Web 开发和前端技术。">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://yzy15.dpdns.org">
+    <meta property="og:image" content="https://github.com/mc-yzy15.png">
+    <meta property="og:site_name" content="Yzy15's Personal Website">
+    
+    <!-- Twitter 卡片 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yzy15 - Python 开发者 & 前端工程师">
+    <meta name="twitter:description" content="专注于自动化脚本、Web 开发和前端技术">
+    <meta name="twitter:image" content="https://github.com/mc-yzy15.png">
+    
+    <!-- 作者信息 -->
+    <meta name="author" content="Yzy15">
+    
+    <!-- 页面主题颜色 -->
+    <meta name="theme-color" content="#3776AB">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" href="https://github.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://github.com/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JX1VCJHM0N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-JX1VCJHM0N');
+    </script>
+    
+    <!-- 结构化数据 - 个人资料 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Yzy15",
+      "alternateName": "mc-yzy15",
+      "url": "https://yzy15.dpdns.org",
+      "sameAs": [
+        "https://github.com/mc-yzy15",
+        "https://space.bilibili.com/1338637552",
+        "https://blog.csdn.net/m0_68339835",
+        "https://home159263.wordpress.com/",
+        "https://t.me/yzyfsq",
+        "https://discord.gg/UwMFBuCbU8"
+      ],
+      "jobTitle": "Python 开发者 & 前端工程师",
+      "description": "专注于 Python 开发、前端技术和自动化脚本的工程师",
+      "email": "yingmoliuguang@yeah.net",
+      "image": "https://github.com/mc-yzy15.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CN"
+      },
+      "knowsAbout": [
+        "Python 编程",
+        "自动化脚本",
+        "前端开发",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Git",
+        "GitHub"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Self-Employed",
+        "url": "https://yzy15.dpdns.org"
+      }
+    }
+    </script>
+    
+    <!-- 结构化数据 - 网站信息 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Yzy15's Personal Website",
+      "url": "https://yzy15.dpdns.org",
+      "description": "Yzy15 的个人主页，展示技术栈、项目作品和开发数据",
+      "publisher": {
+        "@type": "Person",
+        "name": "Yzy15"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yzy15.dpdns.org/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- 预加载和预连接 -->
+    <link rel="preconnect" href="https://github.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preload" href="https://github.com/favicon.ico" as="image" crossorigin>
+    
+    <!-- 样式表 -->
+    <style>
+        :root {
+            --primary-color: #3776AB;
+            --secondary-color: #F7DF1E;
+            --background-color: #f5f5f5;
+            --text-color: #333333;
+            --card-color: #ffffff;
+            --border-color: #e0e0e0;
+            --accent-color: #F05032;
+            --link-color: #3776AB;
+            --link-hover-color: #2a5a85;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #2a5a85);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(255,255,255,0.1)" d="M0,0 L100,0 L100,100 Z"></path></svg>');
+            background-size: cover;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+        
+        nav {
+            background-color: var(--card-color);
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            font-size: 1rem;
+            position: relative;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+        
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+        
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+        
+        section {
+            padding: 60px 0;
+            background-color: var(--card-color);
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        section:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        section:nth-child(odd) {
+            background-color: var(--background-color);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+        
+        .section-title p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        
+        .card {
+            background-color: var(--card-color);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+        
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .card h4 {
+            color: var(--text-color);
+            margin: 15px 0 10px 0;
+            font-size: 1.2rem;
+        }
+        
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .card ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.4;
+        }
+        
+        .card ul li:before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .skill-card {
+            background-color: var(--card-color);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+        
+        .skill-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            background-color: var(--card-color);
+            color: var(--text-color);
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .social-link img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-link:hover img {
+            transform: rotate(15deg);
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .stat-card {
+            background-color: var(--card-color);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+        
+        .stat-card img {
+            max-width: 100%;
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+        }
+        
+        .stat-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .contact-item {
+            text-align: center;
+            padding: 25px;
+            background-color: var(--card-color);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+        
+        .contact-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+        
+        .contact-item h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .contact-item p {
+            margin: 8px 0;
+        }
+        
+        .contact-item a {
+            color: var(--link-color);
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+        
+        .contact-item a:hover {
+            color: var(--link-hover-color);
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background-color: var(--text-color);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            margin-top: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+        }
+        
+        footer p {
+            margin: 15px 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+        
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+        
+        .badge {
+            display: inline-block;
+            margin: 5px;
+            transition: transform 0.3s ease;
+        }
+        
+        .badge:hover {
+            transform: scale(1.05);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            header p {
+                font-size: 1rem;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .section-title p {
+                font-size: 1rem;
+            }
+            
+            section {
+                padding: 40px 0;
+                margin: 15px 0;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 8px 0;
+            }
+            
+            .skills-grid {
+                gap: 20px;
+            }
+            
+            .stats-container {
+                gap: 20px;
+            }
+            
+            .contact-info {
+                gap: 20px;
+            }
+            
+            .social-links {
+                gap: 15px;
+            }
+            
+            .social-link {
+                padding: 10px 18px;
+                font-size: 0.9rem;
+            }
+        }
+        
+        /* 动画效果 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease forwards;
+            opacity: 0;
+        }
+        
+        /* 延迟动画 */
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+        .delay-5 { animation-delay: 1s; }
+        
+        /* 滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background-color: var(--background-color);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background-color: var(--primary-color);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: var(--link-hover-color);
+        }
+        
+        /* 图片延迟加载 */
+        .lazy-img {
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        
+        .lazy-img.loaded {
+            opacity: 1;
+        }
+        
+        /* 平滑滚动 */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* 打印样式 */
+        @media print {
+            nav {
+                display: none;
+            }
+            
+            section {
+                box-shadow: none;
+                margin: 0;
+                padding: 20px 0;
+            }
+            
+            footer {
+                background-color: white;
+                color: black;
+                padding: 20px 0;
+            }
+            
+            footer a {
+                color: var(--primary-color);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header class="fade-in">
+        <div class="container">
+            <h1>👋 Yzy15 - Python 开发者 & 前端工程师</h1>
+            <p>专注于自动化脚本、Web 开发和前端技术的工程师</p>
+            <p>欢迎访问我的个人主页，了解我的技术栈、项目作品和开发数据</p>
+        </div>
+    </header>
+    
+    <!-- 导航栏 -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技术栈</a></li>
+                <li><a href="#projects">项目作品</a></li>
+                <li><a href="#stats">开发数据</a></li>
+                <li><a href="#contact">联系方式</a></li>
+                <li><a href="#优势">个人优势</a></li>
+                <li><a href="#未来">未来规划</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- 关于我 -->
+    <section id="about" class="fade-in delay-1">
+        <div class="container">
+            <div class="section-title">
+                <h2>🚀 关于我</h2>
+                <p>Python 开发者与技术爱好者，热衷于通过技术解决实际问题</p>
+            </div>
+            
+            <div class="card">
+                <h3>👨‍💻 专业背景</h3>
+                <p>我是一名专注于 Python 开发和前端技术的工程师，拥有丰富的编程经验和项目实战经历。我热衷于通过技术解决实际问题，不断探索新技术和编程范式。</p>
+                
+                <h4>🎯 核心技能</h4>
+                <ul>
+                    <li><strong>Python 开发</strong>: 自动化脚本、数据分析、Web 开发</li>
+                    <li><strong>前端技术</strong>: HTML5、CSS3、JavaScript</li>
+                    <li><strong>版本控制</strong>: Git、GitHub 工作流</li>
+                    <li><strong>工具链</strong>: Markdown、Windows 开发环境</li>
+                </ul>
+                
+                <h4>🌟 个人特点</h4>
+                <ul>
+                    <li>📚 持续学习 Python 高级编程与 AI 技术</li>
+                    <li>💡 擅长使用 Python 编写自动化脚本提高工作效率</li>
+                    <li>🤝 乐于分享技术知识和经验</li>
+                    <li>🌐 积极参与开源社区贡献</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 技术栈 -->
+    <section id="skills" class="fade-in delay-2">
+        <div class="container">
+            <div class="section-title">
+                <h2>🛠️ 技术栈与技能</h2>
+                <p>我的技术能力和开发工具</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>编程语言</h4>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                    </div>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+                    </div>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+                    </div>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <h4>开发工具</h4>
+                    <ul>
+                        <li><strong>IDE</strong>: Visual Studio、JetBrains 全家桶</li>
+                        <li><strong>编译器</strong>: MingW64、Visual Studio 2022</li>
+                        <li><strong>包管理</strong>: pnpm（前端）</li>
+                        <li><strong>部署</strong>: GitHub Pages、自定义域名</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <h4>版本控制</h4>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+                    </div>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
+                    </div>
+                    <div class="badge">
+                        <img src="https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 项目作品 -->
+    <section id="projects" class="fade-in delay-3">
+        <div class="container">
+            <div class="section-title">
+                <h2>📁 精选项目与作品</h2>
+                <p>我的技术项目和开发成果</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>Python 项目</h3>
+                    <ul>
+                        <li><strong>自动化脚本</strong>: 提高工作效率的实用工具</li>
+                        <li><strong>数据分析</strong>: 基于 Python 的数据处理和可视化</li>
+                        <li><strong>Web 应用</strong>: 使用 Python 框架开发的后端服务</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>前端项目</h3>
+                    <ul>
+                        <li><strong>响应式网站</strong>: 现代前端技术构建的用户界面</li>
+                        <li><strong>交互组件</strong>: 提升用户体验的前端组件</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- GitHub 开发数据 -->
+    <section id="stats" class="fade-in delay-4">
+        <div class="container">
+            <div class="section-title">
+                <h2>📊 GitHub 开发数据与贡献</h2>
+                <p>我的代码贡献和开发活跃度</p>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h4>代码贡献统计</h4>
+                    <a href="https://github.com/mc-yzy15" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats">
+                    </a>
+                </div>
+                
+                <div class="stat-card">
+                    <h4>技术栈分布</h4>
+                    <a href="https://github.com/mc-yzy15" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css" alt="Top Langs">
+                    </a>
+                </div>
+                
+                <div class="stat-card">
+                    <h4>开发活跃度</h4>
+                    <a href="https://github.com/mc-yzy15" target="_blank">
+                        <img src="https://github-readme-activity-graph.vercel.app/graph?username=mc-yzy15&theme=radical&area=true" alt="GitHub Activity">
+                    </a>
+                </div>
+                
+                <div class="stat-card">
+                    <h4>荣誉与成就</h4>
+                    <a href="https://github.com/mc-yzy15" target="_blank">
+                        <img src="https://github-profile-trophy.vercel.app/?username=mc-yzy15&theme=radical&row=1" alt="GitHub Trophies">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 联系方式 -->
+    <section id="contact" class="fade-in delay-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>🤝 联系方式与社交平台</h2>
+                <p>通过以下方式与我联系或关注我的动态</p>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>📧 官方邮箱</h4>
+                    <p><a href="mailto:yingmoliuguang@yeah.net">yingmoliuguang@yeah.net</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>🔗 GitHub</h4>
+                    <p><a href="https://github.com/mc-yzy15" target="_blank">mc-yzy15</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>🎬 B 站</h4>
+                    <p><a href="https://space.bilibili.com/1338637552" target="_blank">Yzy15 的空间</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>📝 博客</h4>
+                    <p><a href="https://home159263.wordpress.com/" target="_blank">Yzy15 的技术博客</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>💬 Telegram</h4>
+                    <p><a href="https://t.me/yzyfsq" target="_blank">技术交流群</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>💬 Discord</h4>
+                    <p><a href="https://discord.gg/UwMFBuCbU8" target="_blank">开发者社区</a></p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="mailto:yingmoliuguang@yeah.net" class="social-link">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/microsoftoutlook.svg" alt="Email">
+                    发送邮件
+                </a>
+                <a href="https://github.com/mc-yzy15" target="_blank" class="social-link">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg" alt="GitHub">
+                    GitHub 主页
+                </a>
+                <a href="https://space.bilibili.com/1338637552" target="_blank" class="social-link">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/bilibili.svg" alt="Bilibili">
+                    B 站空间
+                </a>
+                <a href="https://home159263.wordpress.com/" target="_blank" class="social-link">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/wordpress.svg" alt="Blog">
+                    技术博客
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 个人优势 -->
+    <section id="优势" class="fade-in delay-1">
+        <div class="container">
+            <div class="section-title">
+                <h2>🌟 个人优势与价值</h2>
+                <p>我的技术能力和团队价值</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>技术能力</h3>
+                    <ul>
+                        <li><strong>Python 自动化</strong>: 擅长编写高效的自动化脚本，提高工作效率</li>
+                        <li><strong>前端开发</strong>: 能够构建美观、响应式的用户界面</li>
+                        <li><strong>问题解决</strong>: 具备良好的逻辑思维和问题分析能力</li>
+                        <li><strong>学习能力</strong>: 快速适应新技术和编程范式</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>团队协作</h3>
+                    <ul>
+                        <li><strong>沟通能力</strong>: 良好的技术沟通和文档编写能力</li>
+                        <li><strong>协作精神</strong>: 积极参与团队项目，配合完成开发任务</li>
+                        <li><strong>代码质量</strong>: 注重代码规范和可维护性，确保项目质量</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>开源贡献</h3>
+                    <ul>
+                        <li><strong>社区参与</strong>: 积极参与开源项目，分享技术知识</li>
+                        <li><strong>代码分享</strong>: 在 GitHub 上分享有价值的项目和工具</li>
+                        <li><strong>技术传播</strong>: 通过博客和视频分享技术经验和教程</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 未来规划 -->
+    <section id="未来" class="fade-in delay-2">
+        <div class="container">
+            <div class="section-title">
+                <h2>📈 未来规划与目标</h2>
+                <p>我的职业发展和技术愿景</p>
+            </div>
+            
+            <div class="card">
+                <ul>
+                    <li>🚀 <strong>技术提升</strong>: 深入学习 AI 技术和高级 Python 开发</li>
+                    <li>🌟 <strong>项目拓展</strong>: 开发更多有价值的开源项目</li>
+                    <li>📚 <strong>知识分享</strong>: 创作更多技术教程和文章</li>
+                    <li>🌐 <strong>社区建设</strong>: 积极参与和贡献技术社区</li>
+                    <li>💼 <strong>职业发展</strong>: 寻求更多挑战和成长机会</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Yzy15 - Python 开发者 & 前端工程师</p>
+            <p>
+                <a href="https://yzy15.dpdns.org" target="_blank">网站地址</a> | 
+                <a href="https://github.com/mc-yzy15" target="_blank">GitHub 仓库</a> | 
+                <a href="mailto:yingmoliuguang@yeah.net">联系邮箱</a>
+            </p>
+            <p>更新时间: 2026年1月</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript 脚本 -->
+    <script>
+        // 页面性能监控
+        window.addEventListener('load', function() {
+            // 测量页面加载时间
+            const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+            console.log(`页面加载时间: ${loadTime}ms`);
+            
+            // 显示页面加载完成的提示
+            console.log('页面加载完成，SEO 优化已就绪');
+            
+            // 检测是否有用户访问
+            if (typeof window.ga !== 'undefined') {
+                // 如果有 Google Analytics，则发送页面浏览事件
+                window.ga('send', 'pageview');
+            }
+        });
+        
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // 图片延迟加载
+        function lazyLoadImages() {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            
+            document.querySelectorAll('img').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+        
+        // 滚动动画
+        function initScrollAnimations() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // 观察所有需要动画的元素
+            document.querySelectorAll('.fade-in').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                observer.observe(el);
+            });
+        }
+        
+        // 响应式导航栏
+        function initResponsiveNav() {
+            const navToggle = document.createElement('button');
+            navToggle.textContent = '菜单';
+            navToggle.style.cssText = `
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                z-index: 1001;
+                background: var(--primary-color);
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1rem;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease;
+                display: none;
+            `;
+            
+            navToggle.addEventListener('click', function() {
+                const nav = document.querySelector('nav ul');
+                nav.classList.toggle('active');
+                if (nav.classList.contains('active')) {
+                    nav.style.display = 'flex';
+                    nav.style.flexDirection = 'column';
+                    nav.style.alignItems = 'center';
+                    nav.style.position = 'absolute';
+                    nav.style.top = '100%';
+                    nav.style.left = '0';
+                    nav.style.right = '0';
+                    nav.style.background = 'rgba(255, 255, 255, 0.98)';
+                    nav.style.backdropFilter = 'blur(10px)';
+                    nav.style.padding = '20px 0';
+                    nav.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                } else {
+                    nav.style.display = '';
+                    nav.style.flexDirection = '';
+                    nav.style.alignItems = '';
+                    nav.style.position = '';
+                    nav.style.top = '';
+                    nav.style.left = '';
+                    nav.style.right = '';
+                    nav.style.background = '';
+                    nav.style.backdropFilter = '';
+                    nav.style.padding = '';
+                    nav.style.boxShadow = '';
+                }
+            });
+            
+            document.body.appendChild(navToggle);
+            
+            // 响应式导航切换
+            function checkNav() {
+                if (window.innerWidth <= 768) {
+                    navToggle.style.display = 'block';
+                    document.querySelector('nav ul').style.display = 'none';
+                } else {
+                    navToggle.style.display = 'none';
+                    document.querySelector('nav ul').style.display = 'flex';
+                    document.querySelector('nav ul').classList.remove('active');
+                }
+            }
+            
+            // 初始检查
+            checkNav();
+            
+            // 窗口大小变化时检查
+            window.addEventListener('resize', checkNav);
+        }
+        
+        // 导航栏滚动效果
+        function initNavScrollEffect() {
+            const nav = document.querySelector('nav');
+            let lastScrollY = window.scrollY;
+            
+            window.addEventListener('scroll', function() {
+                const currentScrollY = window.scrollY;
+                
+                if (currentScrollY > 100) {
+                    nav.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.15)';
+                    nav.style.padding = '10px 0';
+                } else {
+                    nav.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+                    nav.style.padding = '15px 0';
+                }
+                
+                lastScrollY = currentScrollY;
+            });
+        }
+        
+        // 键盘导航支持
+        function initKeyboardNavigation() {
+            document.addEventListener('keydown', function(e) {
+                // Tab 键导航时的焦点样式
+                if (e.key === 'Tab') {
+                    document.body.classList.add('keyboard-navigation');
+                }
+            });
+            
+            document.addEventListener('mousedown', function() {
+                document.body.classList.remove('keyboard-navigation');
+            });
+        }
+        
+        // 无障碍支持
+        function initAccessibility() {
+            // 为所有链接和按钮添加焦点样式
+            const focusableElements = document.querySelectorAll('a, button, input, select, textarea');
+            focusableElements.forEach(element => {
+                element.setAttribute('tabindex', '0');
+            });
+            
+            // 为图片添加 alt 属性
+            document.querySelectorAll('img').forEach(img => {
+                if (!img.hasAttribute('alt')) {
+                    img.setAttribute('alt', '');
+                }
+            });
+        }
+        
+        // 页面可见性 API - 检测用户是否在查看页面
+        function initPageVisibility() {
+            document.addEventListener('visibilitychange', function() {
+                if (document.visibilityState === 'visible') {
+                    console.log('用户正在查看页面');
+                    // 可以在这里添加页面激活时的操作
+                } else {
+                    console.log('用户离开了页面');
+                    // 可以在这里添加页面失活时的操作
+                }
+            });
+        }
+        
+        // 初始化所有功能
+        function initAllFeatures() {
+            // 延迟加载图片
+            lazyLoadImages();
+            
+            // 滚动动画
+            initScrollAnimations();
+            
+            // 响应式导航
+            initResponsiveNav();
+            
+            // 导航栏滚动效果
+            initNavScrollEffect();
+            
+            // 键盘导航支持
+            initKeyboardNavigation();
+            
+            // 无障碍支持
+            initAccessibility();
+            
+            // 页面可见性 API
+            initPageVisibility();
+        }
+        
+        // 当 DOM 加载完成后初始化
+        document.addEventListener('DOMContentLoaded', initAllFeatures);
+        
+        // 错误处理
+        window.addEventListener('error', function(e) {
+            console.error('页面错误:', e.error);
+        });
+        
+        // 未捕获的 Promise 错误
+        window.addEventListener('unhandledrejection', function(e) {
+            console.error('未处理的 Promise 错误:', e.reason);
+        });
+    </script>
+</body>
+</html>
