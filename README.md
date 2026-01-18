@@ -42,8 +42,10 @@ description: Python 开发者、前端工程师，专注于自动化脚本、Web
 
 ## 📊 GitHub 数据
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true)](https://github.com/mc-yzy15)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css)](https://github.com/mc-yzy15)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css&hide_border=true" alt="Top Langs" />
+</div>
 
 ## 📁 项目作品
 
