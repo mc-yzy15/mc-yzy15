@@ -1,0 +1,57 @@
+# Jekyll 配置文件
+
+# 站点信息
+title: Yzy15 - Python 开发者 & 前端工程师
+description: Python 开发者、前端工程师，专注于自动化脚本、Web 开发和前端技术
+author: Yzy15
+email: yingmoliuguang@yeah.net
+url: https://yzy15.dpdns.org
+baseurl: ""
+
+# GitHub 相关
+github_username: mc-yzy15
+repository: mc-yzy15/mc-yzy15
+
+# 语言和编码
+lang: zh-CN
+encoding: utf-8
+
+# Markdown 配置
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+
+# 插件
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 排除的文件
+exclude:
+  - .gitignore
+  - CNAME
+  - README.md
+  - package.json
+  - node_modules
+  - vendor
+
+# 时区
+timezone: Asia/Shanghai
+
+# 社交媒体
+social:
+  github: https://github.com/mc-yzy15
+  bilibili: https://space.bilibili.com/1338637552
+  blog: https://home159263.wordpress.com/
+  telegram: https://t.me/yzyfsq
+  discord: https://discord.gg/UwMFBuCbU8
+
+# Google Analytics
+google_analytics: G-JX1VCJHM0N
+
+# Google Tag Manager
+google_tag_manager: GTM-M37WLWH2
