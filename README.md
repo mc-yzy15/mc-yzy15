@@ -37,8 +37,9 @@
 ## 📊 GitHub 数据
 
 <div align="center">
-  <img src="https://api.github-readme-stats.vercel.app/api?username=mc-yzy15&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
-  <img src="https://api.github-readme-stats.vercel.app/api/top-langs/?username=mc-yzy15&layout=compact&theme=radical&hide=html,css&hide_border=true" alt="Top Langs" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mc-yzy15&theme=radical" alt="GitHub Profile" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mc-yzy15&theme=radical" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mc-yzy15&theme=radical" alt="Productive Time" />
 </div>
 
 ## 📁 项目作品
