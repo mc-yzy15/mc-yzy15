@@ -1,10 +1,17 @@
-# robots.txt for Yzy15's Personal Website
-# 允许所有搜索引擎爬虫访问
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# 网站地图
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
 Sitemap: https://yzy15.dpdns.org/sitemap.xml
-
-# 禁止访问的路径（如果有）
-# Disallow: /private/

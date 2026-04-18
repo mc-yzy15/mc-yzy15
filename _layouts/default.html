@@ -5,15 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="Yzy15, Python 开发者, 前端工程师, GitHub, 自动化脚本, Web 开发, 前端技术, 技术博客, 开源项目">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no, email=no">
+
+    {% seo %}
+
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="baiduspider" content="index, follow">
     <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+
     <link rel="icon" href="https://github.com/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="https://github.com/favicon.ico" type="image/x-icon">
+
     <link rel="preconnect" href="https://github.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="dns-prefetch" href="https://github.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}', { 'anonymize_ip': true });
+    </script>
+    {% endif %}
+
+    {% if site.google_tag_manager %}
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','{{ site.google_tag_manager }}');
+    </script>
+    {% endif %}
     <style>
         :root {
             --apple-gray-1: #f5f5f7;
@@ -460,6 +491,126 @@
             transform: translateX(0);
         }
 
+        .friend-links-section {
+            padding: 80px 20px;
+            background-color: var(--apple-gray-1);
+            position: relative;
+        }
+
+        .friend-links-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent 0%, var(--apple-gray-3) 50%, transparent 100%);
+        }
+
+        .friend-links-container {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        .friend-links-title {
+            font-size: clamp(28px, 4vw, 40px);
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            color: var(--apple-text-primary);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .friend-links-subtitle {
+            font-size: var(--font-size-small);
+            color: var(--apple-text-secondary);
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .friend-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .friend-link-card {
+            background-color: var(--apple-white);
+            border-radius: var(--border-radius);
+            padding: 28px 24px;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .friend-link-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--apple-blue), var(--apple-dark-blue));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .friend-link-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .friend-link-card:hover::before {
+            opacity: 1;
+        }
+
+        .friend-link-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--apple-blue), var(--apple-dark-blue));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+
+        .friend-link-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .friend-link-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--apple-text-primary);
+            margin-bottom: 4px;
+        }
+
+        .friend-link-desc {
+            font-size: 13px;
+            color: var(--apple-text-secondary);
+            line-height: 1.4;
+        }
+
+        .friend-link-arrow {
+            color: var(--apple-text-secondary);
+            font-size: 18px;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .friend-link-card:hover .friend-link-arrow {
+            transform: translateX(4px);
+            color: var(--apple-blue);
+        }
+
         footer {
             background-color: var(--apple-gray-1);
             padding: 60px 20px;
@@ -591,6 +742,14 @@
             .footer-links {
                 gap: 20px;
             }
+
+            .friend-links-section {
+                padding: 60px 20px;
+            }
+
+            .friend-links-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         ::-webkit-scrollbar {
@@ -635,14 +794,21 @@
 </head>
 
 <body>
-    <section class="hero-section">
+    {% if site.google_tag_manager %}
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    {% endif %}
+
+    <section class="hero-section" role="banner">
         <div class="hero-content">
             <h1 class="hero-title">{{ site.title }}</h1>
             <p class="hero-subtitle">{{ site.description }}</p>
             <p class="hero-description">
                 专注于 Python 开发与前端技术，致力于构建优雅、高效的数字体验。
             </p>
-            <nav class="nav-links">
+            <nav class="nav-links" aria-label="主导航">
                 <a href="https://blog.yzy15.dpdns.org" class="nav-link" target="_blank" rel="noopener noreferrer">
                     <span class="nav-link-icon">✍️</span>
                     我的博客
@@ -660,7 +826,7 @@
         </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section" role="main">
         <div class="content-container">
             <div class="markdown-content">
                 {{ content }}
@@ -668,19 +834,44 @@
         </div>
     </section>
 
-    <footer>
+    <section class="friend-links-section">
+        <div class="friend-links-container">
+            <h2 class="friend-links-title">友情链接</h2>
+            <p class="friend-links-subtitle">我的一些站点与推荐链接</p>
+            <div class="friend-links-grid">
+                <a href="https://blog.yzy15.dpdns.org" class="friend-link-card" target="_blank" rel="noopener noreferrer">
+                    <div class="friend-link-icon">✍️</div>
+                    <div class="friend-link-info">
+                        <div class="friend-link-name">我的博客</div>
+                        <div class="friend-link-desc">blog.yzy15.dpdns.org</div>
+                    </div>
+                    <span class="friend-link-arrow">→</span>
+                </a>
+                <a href="https://home159263.wordpress.com/" class="friend-link-card" target="_blank" rel="noopener noreferrer">
+                    <div class="friend-link-icon">📝</div>
+                    <div class="friend-link-info">
+                        <div class="friend-link-name">我的博客 (WordPress)</div>
+                        <div class="friend-link-desc">很久不更新了</div>
+                    </div>
+                    <span class="friend-link-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer role="contentinfo">
         <div class="footer-content">
-            <div class="footer-links">
+            <nav class="footer-links" aria-label="页脚导航">
                 <a href="{{ site.url }}" class="footer-link" target="_blank">网站地址</a>
                 <a href="https://github.com/{{ site.github_username }}" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="mailto:{{ site.email }}" class="footer-link">联系邮箱</a>
                 <a href="{{ site.social.bilibili }}" class="footer-link" target="_blank" rel="noopener noreferrer">Bilibili</a>
                 <a href="{{ site.social.telegram }}" class="footer-link" target="_blank" rel="noopener noreferrer">Telegram</a>
-            </div>
-            <p class="footer-copyright">
+            </nav>
+            <address class="footer-copyright">
                 © {{ site.time | date: "%Y" }} {{ site.author }}<br>
                 Made with ❤️ and code
-            </p>
+            </address>
         </div>
     </footer>
 
