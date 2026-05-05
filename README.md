@@ -60,7 +60,7 @@
 [![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/1338637552)
 [![Blog](https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://home159263.wordpress.com/)
 [![Blog](https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://blogs.yzy15.dpdns.org/)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ShuangXiang_Dddddavidd_bot)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ShuangXiang_Dddddavidd_bot?start=_tgr_IM8E-B00NThl)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UwMFBuCbU8)
 
 ## 🌟 个人优势
